@@ -3,7 +3,7 @@
 当前本地项目路径：
 
 ```text
-/Users/autumn/Documents/agent-learning-lab
+/Users/autumn/PycharmProjects/agent-learning-lab
 ```
 
 ## 推荐 GitHub 仓库名
@@ -12,14 +12,20 @@
 agent-learning-lab
 ```
 
-建议设置为 private，等内容成熟后再考虑公开。
+建议长期学习仓库设置为 private，等内容成熟后再考虑公开。
+
+当前远程仓库：
+
+```text
+https://github.com/KaroriAsaka/agent-learning-lab
+```
 
 ## 如果你之后安装了 GitHub CLI
 
 ```bash
 brew install gh
 gh auth login
-cd /Users/autumn/Documents/agent-learning-lab
+cd /Users/autumn/PycharmProjects/agent-learning-lab
 gh repo create agent-learning-lab --private --source=. --remote=origin --push
 ```
 
@@ -34,12 +40,11 @@ agent-learning-lab
 然后在本地执行：
 
 ```bash
-cd /Users/autumn/Documents/agent-learning-lab
-git remote add origin git@github.com:<your-username>/agent-learning-lab.git
+cd /Users/autumn/PycharmProjects/agent-learning-lab
+git remote add origin git@github.com:KaroriAsaka/agent-learning-lab.git
 git push -u origin main
 ```
 
 ## 推上 GitHub 后
 
 可以把 `tasks/github-issues.md` 里的每个条目创建成 issue。
-
